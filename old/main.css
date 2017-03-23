@@ -1,0 +1,98 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+   /* Fix to include padding and border in the total width for each element */
+   * {
+   	box-sizing: border-box;
+   }
+
+   /* Fix for responsive images */
+/* img {
+  max-width: 100%;
+  } */
+
+  body {
+  	color: #19190D;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 15px;
+  	overflow-y: scroll;
+  	-webkit-font-smoothing: antialiased;
+  }
+
+  header {
+  	border: 1px solid black;
+  	/* padding: 100px 1%; */
+  	height: 800px;
+  	/* background-color: #46C2FE; */
+  	/* position: relative; */
+  	background-image: url("../images/ggbridge.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	background-color: transparent;
+  }
+
+  header h1 {
+  	color: black;
+  	position: relative;
+  	top: 30%;
+  	transform: translateY(-50%);
+  	z-index: 100;
+  }
+
+  h1 {
+  	font-family:'PT Sans Narrow', sans-serif;
+  	font-weight: 700;
+  	text-align: center;
+  }
+
+  h3 {
+  	color: #8A0A3A;
+  	font-family:'Open Sans Condensed', sans-serif;
+  	font-weight: 700;
+  	font-size: 20px;
+  	text-transform: uppercase;
+  	letter-spacing: 0.2px;
+  }
+
+  h4{
+  	font-size: 17px;
+  	text-decoration: underline;
+  }
+
+  .flex-container {
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  .neighborhood-section {
+  	text-align: left;
+  	width: 370px;
+  	height: 600px;
+  	border: 1px solid black;
+  	margin: 40px 0px 0px 20px;
+  	padding: 0px 20px 0px 20px;
+  	background-color: #F0DBDF;
+  	overflow-y: scroll;
+  }
+
+  .map-placeholder {
+  	margin: 40px 20px 0px 20px;
+  	width: 800px;
+  	height: 600px;
+  	border: 1px solid black;
+  }
+
+  #map {
+  	max-height: 100%;
+	/* position: relative;
+	overflow: hidden; */
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+}
